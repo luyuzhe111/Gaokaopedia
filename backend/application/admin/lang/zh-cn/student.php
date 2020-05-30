@@ -1,0 +1,30 @@
+<?php
+
+return [
+    'Id'             => 'ID',
+    'User_id'        => '用户ID',
+    'Level'          => '级别（高中大学）',
+    'Level 1'        => '高中',
+    'Level 2'        => '大学',
+    'Nickname'       => '昵称',
+    'Head_image'     => '头像',
+    'School_id'      => '高中ID',
+    'Subject_ids'    => '选考科目ID集',
+    'Up_id'          => '升学方式',
+    'College_id'     => '学院ID',
+    'University_id'  => '大学ID',
+    'Graduated_id'   => '专业ID',
+    'Createtime'     => '创建时间',
+    'Updatetime'     => '修改时间',
+    'Show_switch'    => '是否展示',
+    'Email'          => '邮箱',
+    'Vip_level'      => 'vip等级',
+    'Vip_level 0'    => '普通',
+    'Vip_level 1'    => '城市',
+    'Vip_level 2'    => '省',
+    'School.name'    => '校名',
+    'Subject.name'   => '名称',
+    'Up.name'        => '名称',
+    'College.name'   => '学院名',
+    'Graduated.name' => '名称'
+];
