@@ -72,7 +72,7 @@ data(){
 methods:{
     toPubArticle(){
 		let token=uni.getStorageSync("token");
-		if(token==''{
+		if(token==''){
 			uni.showToast({
 				title:'请登录后操作',
 				icon:'none'
