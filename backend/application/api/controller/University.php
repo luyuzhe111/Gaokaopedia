@@ -319,7 +319,7 @@ class University extends Api
 
         $levelId = $this->request->param('level_id', 0, 'int');
         $cityId = $this->request->param('city_id', 0, 'int');
-
+        if (empty($word) && empty($levelId) && empty($cityId)) $levelId = 2;
         $where['show_switch'] = ['=', 1];
 
         if($levelId) {
